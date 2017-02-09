@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HEFESTO</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/general_style.css">
+    <link rel="stylesheet" type="text/css" href="style/menu_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4edf508cfe.js"></script>
+
+</head>
+
+<body>
+    <header class="shadow col-12 relative-position">
+        <img id="main_logo" alt="Logo Principal" class="col-05 main-logo absolute-position left-side distance-left-2" src="images/logo2.png" />
+        <div class="div-search col-75 relative-position">
+            <div class="div-search-input col-12 left-side">
+                <input type="text" id="search" name="search" placeholder="Nombre del producto" class="search col-105 left-side" />
+                <button class="icon col-05"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+            </div>
+            <a href="#" id="advanced_search_link" class="link relative-position">Búsqueda Avanzada</a>
+            <div class="round-edge advanced-search absolute-position shadow arrow-box-menu position-order hide" id="advanced_search">
+
+                <label for="product_name" class="round-edge-left">Nombre producto</label>
+                <input type="text" id="product_name" name="product_name" class="round-edge-right" /><br/>
+                <label for="product_category" class="round-edge-left">Categoría</label>
+                <select id="product_category" name="product_category" class="round-edge-right">
+                        <option value="">Seleccione...</option>
+                    </select><br/>
+                <label for="product_material" class="round-edge-left">Tipo material</label>
+                <select id="product_material" name="material" class="round-edge-right">
+                        <option value="">Seleccione...</option>
+                    </select><br/>
+                <label for="shipping_mail" class="round-edge-left">Envío por correo</label>
+                <input type="checkbox" id="shipping_mail" name="shipping_mail" />
+                <label for="hand_delivery" class="round-edge-left">Entrega en mano</label>
+                <input type="checkbox" id="hand_delivery" name="hand_delivery" /><br/>
+                <div id="select_city">
+                    <label for="autonomous_community" class="round-edge-left">Comunidad autónoma</label>
+                    <select id="autonomous_community" name="autonomous_community" class="round-edge-right">
+                            <option value="">Seleccione...</option>
+                        </select><br/>
+                    <label for="city" class="round-edge-left">Ciudad</label>
+                    <select id="city" name="city" class="round-edge-right">
+                            <option value="">Seleccione...</option>
+                        </select>
+                </div>
+                <button class="search col-95 relative-position right-side">Buscar</button>
+
+            </div>
+        </div>
+        <div class="user-image col-25 relative-position right-side">
+            <img src="" alt="Imagen de perfil" id="user_menu_link" class="image-user hide" />
+            <a href="#" class="link relative-position sign-in-link right-side" id="sign_in_link">INICIAR SESIÓN</a>
+            <div class="round-edge sign-in shadow arrow-box-sign-in absolute-position position-order hide" id="sign_in">
+                <form action="" method="POST">
+                    <label for="email" class="round-edge-left">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introduce tu email" class="round-edge-right" />
+                    <label for="password" class="round-edge-left">Contraseña</label>
+                    <input type="password" id="password" name="password" />
+                    <button>INICIAR SESIÓN</button><br/>
+                    <button>REGISTRARSE"</button>
+                </form>
+            </div>
+            <div class="round-edge user-menu absolute-position shadow position-order hide" id="user_menu">
+                <ul id="menu" class="menu">
+                    <li id="profile_link">
+                        <img src="images/perfil.png" class="images-header" alt="Imagen de perfil genérica" /> PERFIL
+                    </li>
+                    <li id="sell_link">
+                        <img src="images/vender.png" class="images-header" alt="Imagen vender" /> VENDER PRODUCTOS
+                    </li>
+                    <li id="my_products_link">
+                        <img src="images/mis_productos.svg" class="images-header" alt="Imagen mis productos" /> MIS PRODUCTOS
+                    </li>
+                    <li id="basket_link">
+                        <img src="images/cesta.png" class="images-header" alt="Imagen cesta" /> CESTA
+                    </li>
+                    <li id="my_sales_link">
+                        <img src="images/mis_ventas.png" class="images-header" alt="Imagen mis ventas" /> MIS VENTAS
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="relative-position col-12">
+        <!-- menú izquierdo-->
+        <div class="round-edge col-3 left-side margin" id="main_menu">
+            <ul id="main_menu_ul" class="shadow round-edge">
+                <li class="add-border-bottom radius-border-top" id="profile_link_big">
+                    <img src="images/perfil.png" class="images-profile-big col-17" alt="Imagen de perfil genérica" /><span class="relative-position distance-left-3">Perfil</span>
+                </li>
+
+                <li class="add-border-bottom" id="sell_link_big">
+                    <img src="images/vender.png" class="images-profile-big col-17" alt="Imagen vender" /><span class="relative-position distance-left-3">Vender productos</span>
+                </li>
+                <li class="add-border-bottom" id="my_products_link_big">
+                    <img src="images/mis_productos.svg" class="images-profile-big col-17" alt="Imagen mis productos" /><span class="relative-position distance-left-3">Mis productos</span>
+                </li>
+                <li class="add-border-bottom" id="basket_link_big">
+                    <img src="images/cesta.png" class="images-profile-big col-17" alt="Imagen cesta" /><span class="relative-position distance-left-3">Cesta</span>
+                </li>
+                <li class="radius-border-bottom" id="my_sales_link_big">
+                    <img src="images/mis_ventas.png" class="images-profile-big col-17" id="profile_image_big" alt="Imagen mis ventas" /><span class="relative-position distance-left-3">Mis ventas</span> </li>
+            </ul>
+        </div>
+        <!-- fin menú izquierdo-->
+        <!-- menú perfil DON'T TOUCH ANYTHING ¬¬ -->
+        <div class="left-side col-8 distance-left-1 div-configuration shadow-menu relative-position" id="profile_div">
+            <a href="#" class="no-text-decoration edit-profile-link distance-left-2 relative-position button-style" id="edit_profile_data">Editar perfil</a>
+            <img src="images/MichaelScott.png" alt="Foto de perfil" class="image-user-profile-menu right-side col-17">
+            <div class="data-profile-div left-side col-9 relative-position" id="data_profile_div">
+                <p class="data-profile distance-left-4" id="profile_name">Nombre: Pepe</p>
+                <p class="data-profile distance-left-4" id="profile_surname">Apellidos: Perez Perez</p>
+                <p id="profile_address" class="data-profile distance-left-4">Dirección: Calle falsa 123</p>
+                <p id="profile_telephone" class="data-profile distance-left-4">Teléfono: 666777889</p>
+                <p id="profile_email" class="data-profile distance-left-4">E-mail: pepeperez@gmail.com</p>
+                <p id="profile_city" class="data-profile distance-left-4">Localidad: Málaga</p>
+                <p id="profile_community" class="data-profile distance-left-4">Comunidad autónoma: Andalucía</p>
+            </div>
+            <div class="round-edge left-side col-9 margin-top-div edit-div hide relative-position padding-top-10" id="edit_profile_div">
+                <label for="edit_profile_name" class="col-17">Nombre</label>
+                <input type="text" id="edit_profile_name" name="edit_profile_name" class="round-edge col-7"><br>
+                <label for="edit_profile_surname" class="col-17">Apellidos</label>
+                <input type="text" id="edit_profile_surname" name="edit_profile_surname" class="round-edge col-7"><br>
+                <label for="edit_profile_address" class="col-17">Dirección</label>
+                <input type="text" id="edit_profile_address" name="edit_profile_address" class="round-edge col-7"><br>
+                <label for="edit_profile_telephone" class="col-17">Teléfono</label>
+                <input type="tel" id="edit_profile_telephone" name="edit_profile_telephone" class="round-edge col-5"><br>
+                <label for="edit_profile_email" class="col-17">Email</label>
+                <input type="email" id="edit_profile_email" name="edit_profile_email" class="round-edge col-7"><br>
+                <label for="edit_profile_autonomous_community" class="col-17">Comunidad autónoma</label>
+                <select id="edit_profile_autonomous_comunity" name="edit_profile_autonomous_community" class="round-edge col-5">
+                        <option value="">Seleccione una comunidad autónoma...</option>
+                    </select><br/>
+                <label for="edit_profile_city" class="col-17">Ciudad</label>
+                <select id="edit_profile_city" name="edit_profile_city" class="round-edge col-5">
+                        <option value="">Seleccione una ciudad...</option>
+                    </select><br>
+                <button id="cancel_profile_edit" class="right-side col-17">Cancelar</button>
+                <button id="send_profile_edit" class="right-side col-17">Enviar</button>
+            </div>
+        </div>
+        <!-- fin menú perfil-->
+        <!-- menú vender-->
+        <div class="round-edge right-side col-7 margin add-border hide margin-top-div" id="sell_div">
+            <form action="" method="post">
+                <label for="product_name" class="round-edge-left padding-top padding-left relative-position">Nombre del producto</label>
+                <input type="text" id="product_name" class="product-name"><br>
+                <label for="product_description" class="round-edge-left padding-top padding-left relative-position">Descripción del producto</label>
+                <textarea type="text" id="product_description" class="product-description"></textarea><br>
+                <label for="product_price" class="round-edge-left padding-top padding-left relative-position">Precio del producto</label>
+                <input type="number" id="product_price" class="product-price"><br>
+                <input type="radio" name="quantity" value="unlimited" class="padding-top padding-left relative-position"> Ilimitado
+                <input type="radio" name="quantity" value="limited" class="padding-top padding-left relative-position"> Stock<br>
+                <label for="product_type" class="round-edge-left padding-top padding-left relative-position">Tipo</label>
+                <select id="product_type" class="product-type" name="product_type">
+                        <option value="">Seleccione un tipo...</option>
+                    </select>
+                <label for="product_category" class="round-edge-left padding-top padding-left relative-position">Categoria</label>
+                <select id="product_category" class="product-category" name="product_category">
+                        <option value="">Seleccione una categoria...</option>
+                    </select><br>
+                <label for="product_pic" class="round-edge-left padding-top padding-left relative-position">Subir imagen</label>
+                <input type="file" name="product_pic" id="product_pic" class="product-pic" accept="image/*"><img alt="foto" class="img-product padding-left"><br>
+
+                <input type="button" id="send_product" value="Guardar" class="send-product right-side save-button-margin" name="send_product" />
+            </form>
+        </div>
+        <!-- fin menú vender-->
+        <!-- menú mis productos-->
+        <div id="my_products" class="left-side col-8 distance-left-2 div-configuration shadow-menu relative-position hide">
+            <div id="products_div" class=" products vertical-scroll col-12 full-height">
+                <div class="product margin shadow-product col-45 distance-left-2 left-side relative-position">
+                    <div id="example1" class="distance-left-1 left-side relative-position col-12">
+                        <img src="images/mesa.jpg" alt="producto1" class="col-5 left-side relative-position">
+                        <div class="div-description display-inline-block left-side distance-left-7 relative-position">
+                            <span class="description-name">Mesa</span><br>
+                            <span class="description-price">15€</span>
+                        </div>
+                        <div class="link-my-products right-side relative-position">
+                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
+                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product margin shadow-product col-45 distance-left-2 left-side relative-position">
+                    <div id="example2" class="distance-left-1 left-side relative-position col-12">
+                        <img src="images/silla.jpg" alt="producto1" class="col-5 left-side relative-position">
+                        <div class="div-description display-inline-block left-side distance-left-7 relative-position">
+                            <span class="description-name">Silla</span><br>
+                            <span class="description-price">15€</span>
+                        </div>
+                        <div class="link-my-products right-side relative-position">
+                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
+                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="edit_div_product" class="round-edge hide">
+                <form method="POST" id="formdiv">
+                    <label for="product_name_edit" class="round-edge-left padding-top padding-left">Nombre del producto</label>
+                    <input type="text" id="product_name_edit" name="product_name_edit" placeholder="Nombre del producto"><br/>
+                    <label for="product_description_edit" class="round-edge-left padding-top padding-left">Descripción:</label>
+                    <textarea placeholder="Descripción"></textarea><br/>
+                    <label for="category_product_edit" class="round-edge-left padding-top padding-left">Categoría</label>
+                    <select id="category_product_edit" name="category">
+                            <option value="">Seleccione una categoría....</option>
+                    </select><br/>
+                    <label for="material_type_edit" class="round-edge-left padding-top padding-left">Tipo de material</label>
+                    <select id="material_type_edit" name="material_type_edit">
+                            <option value="">Seleccione el tipo de producto....</option>
+                        </select><br/>
+                    <input type="button" id="cancel_edit_product" value="Cancelar" class="right-side" />
+                    <input type="button" id="submit_edit_product" value="Guardar" class="right-side" />
+                </form>
+            </div>
+        </div>
+        <!-- fin menú mis productos-->
+        <!-- menú cesta-->
+        <div class=" round-edge right-side col-7 margin main-height add-border order hide margin-top-div height-400" id="basket_div">
+            <div class="basket display-inline-block distance-left-5 col-8 vertical-scroll add-border">
+                <div class="round-edge add-border left-side padding-20" id="id_product">
+                    <img src="" alt="Imagen producto" id="product_image" class="left-side" />
+                    <p class="right-side">Nombre, vendedor, precio</p><br>
+                    <a href="#" id="delete_product" class="right-side">ELIMINAR</a>
+                </div>
+            </div>
+            <div class="payment round-edge right-side display-inline-block add-border margin-10-payment col-3">
+                <p class="padding-top-10">TOTAL</p><br>
+                <p class="padding-top-10">Aquí va el precio total</p><br>
+                <a href="#" id="purchasing_progress" class="padding-top-10">TRAMITAR</a>
+            </div>
+        </div>
+        <!-- fin menú cesta-->
+        <!-- menú mis ventas-->
+        <div class="round-edge left-side col-7 margin add-border margin-top-div padding-bottom-div hide vertical-scroll height-400" id="sales_div">
+            <div id="example_sales" class="add-border col-10 center top-margin sell-height display-table col-offset-101">
+                <img src="images/pulsera.jpeg" alt="Foto producto vendido" class="col-18 left-side">
+                <p class="top-margin col-offset-35">Pulsera de perlas</p>
+                <p class="top-margin col-offset-35">Pepe Pérez Pérez</p>
+            </div>
+            <div id="example_sales" class="add-border col-10 center top-margin sell-height display-table col-offset-101">
+                <img src="images/pulsera.jpeg" alt="Foto producto vendido" class="col-18 left-side">
+                <p class="top-margin col-offset-35">Pulsera de perlas</p>
+                <p class="top-margin col-offset-35">Pepe Pérez Pérez</p>
+            </div>
+            <div id="example_sales" class="add-border col-10 center top-margin sell-height display-table col-offset-101">
+                <img src="images/pulsera.jpeg" alt="Foto producto vendido" class="col-18 left-side">
+                <p class="top-margin col-offset-35">Pulsera de perlas</p>
+                <p class="top-margin col-offset-35">Pepe Pérez Pérez</p>
+            </div>
+            <div id="example_sales" class="add-border col-10 center top-margin sell-height display-table col-offset-101">
+                <img src="images/pulsera.jpeg" alt="Foto producto vendido" class="col-18 left-side">
+                <p class="top-margin col-offset-35">Pulsera de perlas</p>
+                <p class="top-margin col-offset-35">Pepe Pérez Pérez</p>
+            </div>
+        </div>
+        <!-- fin menú mis ventas-->
+    </main>
+    <footer class="col-12 absolute-position">
+        <img src="images/logo2.png" class="logo-small distance-left-7 main-logo relative-position left-side" alt="Logotipo página" />
+        <div class="links-footer relative-position col-offset-4 col-4">
+            <a href="" class="white-letters no-text-decoration">Contacto</a>
+            <a href="" class="white-letters no-text-decoration">Politica de privacidad</a>
+            <a href="" class="white-letters no-text-decoration">Sobre nosotros</a>
+        </div>
+    </footer>
+
+    <script src="js/functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HEFESTO</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/principal_style.css">
+    <link rel="stylesheet" type="text/css" href="style/general_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4edf508cfe.js"></script>
+
+</head>
+
+<body>
+    <header class="shadow col-12 relative-position">
+        <img id="main_logo" alt="Logo Principal" class="col-05 main-logo absolute-position left-side distance-left-2" src="images/logo2.png" />
+        <div class="div-search col-75 relative-position">
+            <div class="div-search-input col-12 left-side">
+                <input type="text" id="search" name="search" placeholder="Nombre del producto" class="search col-105 left-side" />
+                <button class="icon col-05"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+            </div>
+            <a href="#" id="advanced_search_link" class="link relative-position">Búsqueda Avanzada</a>
+            <div class="round-edge advanced-search absolute-position shadow arrow-box-menu position-order hide" id="advanced_search">
+
+                <label for="product_name" class="round-edge-left">Nombre producto</label>
+                <input type="text" id="product_name" name="product_name" class="round-edge-right" /><br/>
+                <label for="product_category" class="round-edge-left">Categoría</label>
+                <select id="product_category" name="product_category" class="round-edge-right">
+                        <option value="">Seleccione...</option>
+                    </select><br/>
+                <label for="product_material" class="round-edge-left">Tipo material</label>
+                <select id="product_material" name="material" class="round-edge-right">
+                        <option value="">Seleccione...</option>
+                    </select><br/>
+                <label for="shipping_mail" class="round-edge-left">Envío por correo</label>
+                <input type="checkbox" id="shipping_mail" name="shipping_mail" />
+                <label for="hand_delivery" class="round-edge-left">Entrega en mano</label>
+                <input type="checkbox" id="hand_delivery" name="hand_delivery" /><br/>
+                <div id="select_city">
+                    <label for="autonomous_community" class="round-edge-left">Comunidad autónoma</label>
+                    <select id="autonomous_community" name="autonomous_community" class="round-edge-right">
+                            <option value="">Seleccione...</option>
+                        </select><br/>
+                    <label for="city" class="round-edge-left">Ciudad</label>
+                    <select id="city" name="city" class="round-edge-right">
+                            <option value="">Seleccione...</option>
+                        </select>
+                </div>
+                <button class="search col-95 relative-position right-side">Buscar</button>
+
+            </div>
+        </div>
+        <div class="user-image col-25 relative-position right-side">
+            <img src="" alt="Imagen de perfil" id="user_menu_link" class="image-user hide" />
+            <a href="#" class="link relative-position sign-in-link right-side" id="sign_in_link">INICIAR SESIÓN</a>
+            <div class="round-edge sign-in shadow arrow-box-sign-in absolute-position position-order hide" id="sign_in">
+                <form action="" method="POST">
+                    <label for="email" class="round-edge-left">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introduce tu email" class="round-edge-right" />
+                    <label for="password" class="round-edge-left">Contraseña</label>
+                    <input type="password" id="password" name="password" />
+                    <button>INICIAR SESIÓN</button><br/>
+                    <button>REGISTRARSE"</button>
+                </form>
+            </div>
+            <div class="round-edge user-menu absolute-position shadow position-order hide" id="user_menu">
+                <ul id="menu" class="menu">
+                    <li id="profile_link">
+                        <img src="images/perfil.png" class="images-header" alt="Imagen de perfil genérica" /> PERFIL
+                    </li>
+                    <li id="sell_link">
+                        <img src="images/vender.png" class="images-header" alt="Imagen vender" /> VENDER PRODUCTOS
+                    </li>
+                    <li id="my_products_link">
+                        <img src="images/mis_productos.svg" class="images-header" alt="Imagen mis productos" /> MIS PRODUCTOS
+                    </li>
+                    <li id="basket_link">
+                        <img src="images/cesta.png" class="images-header" alt="Imagen cesta" /> CESTA
+                    </li>
+                    <li id="my_sales_link">
+                        <img src="images/mis_ventas.png" class="images-header" alt="Imagen mis ventas" /> MIS VENTAS
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="relative-position">
+        <h2>Novedades</h2>
+        <div id="1" class="product-main relative-position col-25 left-side distance-left-33 shadow-product">
+            <img src="images/imagen_prueba.jpg" id="image_main" class="image-main col-12" />
+            <span class="product-name-main distance-left-15 col-6">Marcapáginas</span>
+            <span class="product-price-main relative-position right-side">15€</span>
+        </div>
+        <div id="1" class="product-main relative-position col-25 left-side distance-left-33 shadow-product">
+            <img src="images/pulsera.jpg" id="image_main" class="image-main col-12" />
+            <span class="product-name-main distance-left-15">Pulsera</span>
+            <span class="product-price-main relative-position right-side">15€</span>
+        </div>
+        <div id="1" class="product-main relative-position col-25 left-side distance-left-33 shadow-product">
+            <img src="images/maceta.jpg" id="image_main" class="image-main col-12" />
+            <span class="product-name-main distance-left-15">Macetas</span>
+            <span class="product-price-main relative-position right-side">15€</span>
+        </div>
+        <div id="1" class="product-main relative-position col-25 left-side distance-left-33 shadow-product">
+            <img src="images/silla.jpg" id="image_main" class="image-main col-12" />
+            <span class="product-name-main distance-left-15">Silla</span>
+            <span class="product-price-main relative-position right-side">15€</span>
+        </div>
+        <div id="1" class="product-main relative-position col-25 left-side distance-left-33 shadow-product">
+            <img src="images/mesa.jpg" id="image_main" class="image-main col-12" />
+            <span class="product-name-main distance-left-15">Mesa</span>
+            <span class="product-price-main relative-position right-side">15€</span>
+        </div>
+    </main>
+    <footer class="col-12 absolute-position">
+        <img src="images/logo2.png" class="logo-small distance-left-7 main-logo relative-position left-side" alt="Logotipo página" />
+        <div class="links-footer relative-position col-offset-4 col-4">
+            <a href="" class="white-letters no-text-decoration">Contacto</a>
+            <a href="" class="white-letters no-text-decoration">Politica de privacidad</a>
+            <a href="" class="white-letters no-text-decoration">Sobre nosotros</a>
+        </div>
+    </footer>
+
+    <script src="js/functions.js"></script>
+</body>
+
+</html>

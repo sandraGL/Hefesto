@@ -1,0 +1,39 @@
+.product-main {
+    margin: 2%;
+    margin-right: 1%;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+}
+
+.product-main:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0px 0px 9px #757575;
+}
+
+.product-price-main {
+    font-size: 2em;
+    margin: 3%;
+    padding: 1%;
+}
+
+.product-name-main {
+    font-size: 1.5em;
+}
+
+.image-main {
+    height: 200px;
+    border-radius: 2px;
+}
+
+main h2 {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 1px grey;
+    border-bottom: 1px solid black;
+    padding-left: 2%;
+}
+
+main {
+    display: table;
+}
