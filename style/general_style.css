@@ -60,10 +60,6 @@ header {
     width: 41.66%;
 }
 
-.col-45 {
-    width: 45%;
-}
-
 .col-6 {
     width: 50%;
 }
@@ -370,9 +366,7 @@ input.search[placeholder] {
 }
 
 button.search {
-    position: relative;
-    float: right;
-    margin: 15%;
+    margin: 2%;
 }
 
 .sign-in {

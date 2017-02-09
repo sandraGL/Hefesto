@@ -47,7 +47,7 @@
                             <option value="">Seleccione...</option>
                         </select>
                 </div>
-                <button class="search col-95 relative-position right-side">Buscar</button>
+                <button class="search col-95 relative-position left-side">Buscar</button>
 
             </div>
         </div>
@@ -109,7 +109,7 @@
         <!-- fin menú izquierdo-->
         <!-- menú perfil DON'T TOUCH ANYTHING ¬¬ -->
         <div class="left-side col-8 distance-left-1 div-configuration shadow-menu relative-position" id="profile_div">
-            <a href="#" class="no-text-decoration edit-profile-link distance-left-2 relative-position button-style" id="edit_profile_data">Editar perfil</a>
+            <a href="#" class="no-text-decoration edit-profile-link distance-left-2 relative-position" id="edit_profile_data">Editar perfil</a>
             <img src="images/MichaelScott.png" alt="Foto de perfil" class="image-user-profile-menu right-side col-17">
             <div class="data-profile-div left-side col-9 relative-position" id="data_profile_div">
                 <p class="data-profile distance-left-4" id="profile_name">Nombre: Pepe</p>
@@ -172,35 +172,22 @@
         <!-- fin menú vender-->
         <!-- menú mis productos-->
         <div id="my_products" class="left-side col-8 distance-left-2 div-configuration shadow-menu relative-position hide">
-            <div id="products_div" class=" products vertical-scroll col-12 full-height">
-                <div class="product margin shadow-product col-45 distance-left-2 left-side relative-position">
-                    <div id="example1" class="distance-left-1 left-side relative-position col-12">
-                        <img src="images/mesa.jpg" alt="producto1" class="col-5 left-side relative-position">
-                        <div class="div-description display-inline-block left-side distance-left-7 relative-position">
+            <div class=" products vertical-scroll col-12 full-height">
+                <div class="product margin shadow-product col-11 distance-left-1 left-side">
+                    <div id="example1" class="distance-left-1 left-side">
+                        <img src="images/mesa.jpg" alt="producto1" class="col-5 left-side">
+                        <div class="div-description display-inline-block left-side distance-left-7">
                             <span class="description-name">Mesa</span><br>
                             <span class="description-price">15€</span>
                         </div>
-                        <div class="link-my-products right-side relative-position">
-                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
-                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="product margin shadow-product col-45 distance-left-2 left-side relative-position">
-                    <div id="example2" class="distance-left-1 left-side relative-position col-12">
-                        <img src="images/silla.jpg" alt="producto1" class="col-5 left-side relative-position">
-                        <div class="div-description display-inline-block left-side distance-left-7 relative-position">
-                            <span class="description-name">Silla</span><br>
-                            <span class="description-price">15€</span>
-                        </div>
-                        <div class="link-my-products right-side relative-position">
-                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
-                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
+                        <div class="link-my-products right-side col-offset-6 relative-position">
+                            <a href="#" class="right-side display-block">Editar</a><br>
+                            <a href="#" class="right-side display-block">Eliminar</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="edit_div_product" class="round-edge hide">
+            <div id="edit_div" class="round-edge hide">
                 <form method="POST" id="formdiv">
                     <label for="product_name_edit" class="round-edge-left padding-top padding-left">Nombre del producto</label>
                     <input type="text" id="product_name_edit" name="product_name_edit" placeholder="Nombre del producto"><br/>
@@ -221,15 +208,46 @@
         </div>
         <!-- fin menú mis productos-->
         <!-- menú cesta-->
-        <div class=" round-edge right-side col-7 margin main-height add-border order hide margin-top-div height-400" id="basket_div">
-            <div class="basket display-inline-block distance-left-5 col-8 vertical-scroll add-border">
-                <div class="round-edge add-border left-side padding-20" id="id_product">
-                    <img src="" alt="Imagen producto" id="product_image" class="left-side" />
-                    <p class="right-side">Nombre, vendedor, precio</p><br>
-                    <a href="#" id="delete_product" class="right-side">ELIMINAR</a>
+        <div class=" left-side col-8 distance-left-1 div-configuration shadow-menu relative-position" id="basket_div">
+            <div class="vertical-scroll col-8 display-inline-block full-height">
+                <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
+                    <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
+                    <div class="div-description display-inline-block left-side distance-left-7">
+                    <span class="left-side description-name">Coffee Table</span><br>
+                    <span class="left-side description-name">Michael Graham</span><br>
+                    <span class="left-side description-price">120€</span><br>
+                    </div>
+                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                </div>
+                <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
+                    <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
+                    <div class="div-description display-inline-block left-side distance-left-7">
+                    <span class="left-side description-name">Coffee Table</span><br>
+                    <span class="left-side description-name">Michael Graham</span><br>
+                    <span class="left-side description-price">120€</span><br>
+                    </div>
+                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                </div>
+                <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
+                    <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
+                    <div class="div-description display-inline-block left-side distance-left-7">
+                    <span class="left-side description-name">Coffee Table</span><br>
+                    <span class="left-side description-name">Michael Graham</span><br>
+                    <span class="left-side description-price">120€</span><br>
+                    </div>
+                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                </div>
+                <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
+                    <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
+                    <div class="div-description display-inline-block left-side distance-left-7">
+                    <span class="left-side description-name">Coffee Table</span><br>
+                    <span class="left-side description-name">Michael Graham</span><br>
+                    <span class="left-side description-price">120€</span><br>
+                    </div>
+                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
                 </div>
             </div>
-            <div class="payment round-edge right-side display-inline-block add-border margin-10-payment col-3">
+            <div class="payment round-edge right-side display-inline-block  margin-10-payment col-3 product shadow-product">
                 <p class="padding-top-10">TOTAL</p><br>
                 <p class="padding-top-10">Aquí va el precio total</p><br>
                 <a href="#" id="purchasing_progress" class="padding-top-10">TRAMITAR</a>
@@ -237,7 +255,7 @@
         </div>
         <!-- fin menú cesta-->
         <!-- menú mis ventas-->
-        <div class="round-edge left-side col-7 margin add-border margin-top-div padding-bottom-div hide vertical-scroll height-400" id="sales_div">
+        <div class="left-side col-8 distance-left-1 div-configuration shadow-menu relative-position vertical-scroll" id="sales_div">
             <div id="example_sales" class="add-border col-10 center top-margin sell-height display-table col-offset-101">
                 <img src="images/pulsera.jpeg" alt="Foto producto vendido" class="col-18 left-side">
                 <p class="top-margin col-offset-35">Pulsera de perlas</p>
