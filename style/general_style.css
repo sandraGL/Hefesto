@@ -286,13 +286,6 @@ ul {
     margin: 2%;
 }
 
-label {
-    position: relative;
-    font-size: 1em;
-    align-content: center;
-    margin-top: 20px;
-}
-
 .arrow-box-menu:after {
     bottom: 100%;
     left: 10%;
@@ -452,4 +445,10 @@ footer {
 
 main {
     min-height: 500px;
+}
+.block-inline{
+    display: inline-block;
+}
+.search-top-margin{
+    margin-top: 6px;
 }
