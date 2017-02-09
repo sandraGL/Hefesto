@@ -158,7 +158,9 @@ ul li:hover {
 }
 
 .edit-div input,
-.edit-div select {
+.edit-div select,
+.form-edit-product input,
+.form-edit-product select {
     height: 21px;
     margin: 1%;
     margin-left: 0;
@@ -169,13 +171,18 @@ ul li:hover {
     display: inline-block;
 }
 
-.edit-div button {
+.edit-div button,
+.form-edit-product button {
     height: 10%;
     margin: 1%;
     font-size: .8em;
     padding: .5%;
     box-shadow: 1px 1px 1px grey;
     border: none;
+}
+
+.form-edit-product button {
+    margin-right: 10px;
 }
 
 .edit-div button:hover {
@@ -232,4 +239,12 @@ ul li span {
 
 .link-my-products a:hover {
     font-weight: bold;
+}
+
+.edit-div-product {
+    margin: 2%;
+}
+
+.form-edit-product input {
+    height: 25px;
 }
