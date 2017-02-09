@@ -8,7 +8,8 @@ var sell_link_big = window.document.getElementById("sell_link_big");
 var my_products_link_big = window.document.getElementById("my_products_link_big");
 var basket_link_big = window.document.getElementById("basket_link_big");
 var my_sales_link_big = window.document.getElementById("my_sales_link_big");
-
+var link_edit_product = window.document.getElementById('link_edit_product');
+var link_delete_product = window.document.getElementById('link_delete_product');
 
 advanced_search_link.addEventListener('click', function() {
     if (window.document.getElementById('advanced_search').style.display == 'block') {
@@ -33,6 +34,7 @@ profile_link_big.addEventListener('click', function() {
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('profile_div').classList.remove("hide");
+    changeDivEditProfile();
 });
 
 edit_profile_data.addEventListener('click', function() {
@@ -45,6 +47,7 @@ cancel_profile_edit.addEventListener('click', function() {
     window.document.getElementById('edit_profile_div').classList.add('hide');
     window.document.getElementById('data_profile_div').classList.remove('hide');
     window.document.getElementById('edit_profile_data').classList.remove('hide');
+
 });
 sell_link_big.addEventListener('click', function() {
     window.document.getElementById('profile_div').classList.add("hide");
@@ -52,6 +55,7 @@ sell_link_big.addEventListener('click', function() {
     window.document.getElementById('my_products').classList.add("hide");
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.remove("hide");
+    changeDivEditProfile();
 });
 
 my_products_link_big.addEventListener('click', function() {
@@ -60,13 +64,26 @@ my_products_link_big.addEventListener('click', function() {
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('my_products').classList.remove("hide");
+    changeDivEditProfile();
 });
+
+link_edit_product.addEventListener('click', function() {
+    window.document.getElementById('edit_div_product').classList.remove('hide');
+    window.document.getElementById('products_div').classList.add('hide');
+});
+
+function changeDivEditProfile() {
+    window.document.getElementById('edit_div_product').classList.add('hide');
+    window.document.getElementById('products_div').classList.remove('hide');
+}
+
 basket_link_big.addEventListener('click', function() {
     window.document.getElementById('profile_div').classList.add("hide");
     window.document.getElementById('sales_div').classList.add("hide");
     window.document.getElementById('my_products').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('basket_div').classList.remove("hide");
+    changeDivEditProfile();
 });
 
 my_sales_link_big.addEventListener('click', function() {
@@ -75,4 +92,5 @@ my_sales_link_big.addEventListener('click', function() {
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sales_div').classList.remove("hide");
+    changeDivEditProfile();
 });

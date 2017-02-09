@@ -188,6 +188,7 @@ ul li:hover {
 }
 
 .product img {
+    height: 130px;
     margin-top: 1%;
     margin-bottom: 1%;
     box-shadow: 1px 1px 4px grey;
@@ -213,7 +214,22 @@ ul li span {
     bottom: 20px;
     font-size: 1.4em;
 }
-.delete{
+
+.delete {
     margin-top: 21.5%;
     margin-right: 1%;
+}
+
+.link-my-products {
+    margin-top: 20%;
+    margin-right: 4%;
+    font-size: 1.1em;
+}
+
+.link-my-products a {
+    color: #262626;
+}
+
+.link-my-products a:hover {
+    font-weight: bold;
 }
