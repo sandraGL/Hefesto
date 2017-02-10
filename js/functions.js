@@ -11,6 +11,7 @@ var my_sales_link_big = window.document.getElementById("my_sales_link_big");
 var link_edit_product = window.document.getElementById('link_edit_product');
 var link_delete_product = window.document.getElementById('link_delete_product');
 
+
 advanced_search_link.addEventListener('click', function() {
     if (window.document.getElementById('advanced_search').style.display == 'block') {
         window.document.getElementById('advanced_search').style.display = 'none';
