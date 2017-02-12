@@ -5,11 +5,12 @@
 }
 
 body {
-    background-color: #E0E0E0;
+    background-color: ghostwhite;
 }
 
 header {
-    background-image: url("../images/img_header.png");
+    /* background-image: url("../images/img_header.png");*/
+    background-color: #00897b;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -273,6 +274,7 @@ header {
 
 input {
     border: 1px solid grey;
+    color: black;
 }
 
 select {
@@ -333,7 +335,6 @@ ul {
     background: snow;
     border: none;
     font-size: 10px;
-    color: #ffffff;
     padding-left: 15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -406,7 +407,8 @@ header>div.div-search>input.search {
 footer {
     height: 50px;
     text-align: center;
-    background-image: url("../images/img_header.png");
+    /*background-image: url("../images/img_header.png");*/
+    background-color: #00897b;
     margin-top: 2%;
     display: table;
 }
