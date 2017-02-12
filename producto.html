@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style/general_style.css">
     <link rel="stylesheet" type="text/css" href="style/product_style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     <script src="https://use.fontawesome.com/4edf508cfe.js"></script>
@@ -85,30 +86,31 @@
             </div>
         </div>
     </header>
-    <main class="relative-position col-12">
-        <div id="div_product" class="round-edge div-product black-border relative-position col-95 col-offset-102">
-            <h1>Jarrón chico bonito marrón</h1>
-            <div id="product_information" class="round-edge black-border display-table col-12 product-information">
+     <main class="relative-position col-12">
+        <div id="div_product" class="add-border-bottom radius-border-top div-product relative-position col-95 col-offset-102"> <!--div-product black-border-->
+            <h1 class="div-title border-bottom">Coffee table</h1>
+            <div id="product_information" class="round-edge grey-border display-table col-12 product-information">
 
-                <img src="images/producto.jpg" id="img_product" alt="Imagen producto" class="img-product relative-position col-35 left-side">
-                <div class="relative-position left-side col-85">
-                    <p id="product_name">Nombre: Jarrón, Málaga</p>
-                    <p id="product_description">Descripción: Un jarrón muy bonito</p>
-                    <p id="product_category">Categoría: jarrones</p>
-                    <p id="product_material">Material: cerámica</p>
+                <img src="images/mesa.jpg" id="img_product" alt="Imagen producto" class="img-product relative-position col-35 left-side">
+                <div class="relative-position left-side col-85 div-product-description">
+                    <p id="product_name">Nombre: Mesa, Málaga</p>
+                    <p id="product_description">Descripción: Una mesa muy bonita</p>
+                    <p id="product_category">Categoría: mesas</p>
+                    <p id="product_material">Material: madera</p>
                     <p id="product_price">Precio: 20€</p>
-                    <a href="#" id="addtobasket" class="round-edge add-to-basket black-border relative-position no-text-decoration right-side shadow-button">Añadir a cesta</a>
+                    <button id="addtobasket" class="enjoy-css add-to-basket right-side shadow-button">Añadir a cesta</button>
                     <div class="assessment left-side round-edge">Valoración:</div>
                 </div>
             </div>
-            <h1>Comentarios</h1>
-            <div id="comments" class="black-border display-table col-12 comments relative-position left-side col-12">
+            <h1 class="div-title border-bottom">Comentarios</h1>
+            <div id="comments" class="grey-border display-table col-12 comments relative-position left-side col-12">
 
                 <div id="comments_interface" class="round-edge relative-position col-12 display-table">
                     <div id="user_comment col-12 relative-position">
                         <img alt="foto" src="images/MichaelScott.png" class="left-side img-user-comment col-1 relative-position distance-left-1">
                         <div id="comment-container col-7">
-                            <div class="round-edge left-side margin col-7 margin_left arrow-box relative-position">Espectacular, me ha encantado.
+                            <div class="round-edge left-side margin col-7 margin_left arrow-box relative-position">
+                                <p class="display-inline-block">Espectacular, me ha encantado.</p>
 
                                 <div class="round-edge right-side margin">
                                     <div class="ec-stars-wrapper" style="cursor:pointer">
@@ -126,9 +128,9 @@
                     </div>
 
                 </div>
-                <div id="opinion_container" class="round-edge black-border display-table opinion-container col-12">
-                    <textarea placeholder="Deja tu opinión..." name="commentary" id="commentary" class="commentary left-side col-118"></textarea>
-                    <button type="submit" id="commentary_btn" class="comment-btn right-side">Comentar</button>
+                <div id="opinion_container" class="display-table opinion-container col-12">
+                    <textarea placeholder="Deja tu opinión..." name="commentary" id="commentary" class="radius-border-top commentary left-side col-118"></textarea>
+                    <button type="submit" id="commentary_btn" class="bgreen comment-btn right-side">Comentar</button>
                 </div>
             </div>
         </div>

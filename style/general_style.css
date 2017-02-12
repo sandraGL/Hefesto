@@ -9,7 +9,8 @@ body {
 }
 
 header {
-    background-image: url("../images/img_header.png");
+    /*background-image: url("../images/img_header.png");*/
+	background-color: #00895b;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -455,3 +456,5 @@ main {
 .search-top-margin {
     margin-top: 6px;
 }
+
+
