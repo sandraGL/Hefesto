@@ -376,7 +376,7 @@ button.search {
 }
 
 .user-menu {
-    margin-top: 25%;
+    margin-top: 31%;
 }
 
 .images-header {
@@ -456,4 +456,10 @@ main {
 
 .search-top-margin {
     margin-top: 6px;
+}
+
+.image-user{
+    border-radius: 50%;
+    width: 25%;
+    margin-right: 24%;
 }
