@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     <script src="https://use.fontawesome.com/4edf508cfe.js"></script>
 
+
+
+
+
 </head>
 
 <body>
@@ -145,29 +149,35 @@
         </div>
         <!-- fin menú perfil-->
         <!-- menú vender-->
-        <div class="round-edge right-side col-7 margin add-border hide margin-top-div" id="sell_div">
-            <form action="" method="post">
-                <label for="product_name" class="round-edge-left padding-top padding-left relative-position">Nombre del producto</label>
-                <input type="text" id="product_name" class="product-name"><br>
-                <label for="product_description" class="round-edge-left padding-top padding-left relative-position">Descripción del producto</label>
-                <textarea type="text" id="product_description" class="product-description"></textarea><br>
-                <label for="product_price" class="round-edge-left padding-top padding-left relative-position">Precio del producto</label>
-                <input type="number" id="product_price" class="product-price"><br>
-                <input type="radio" name="quantity" value="unlimited" class="padding-top padding-left relative-position"> Ilimitado
-                <input type="radio" name="quantity" value="limited" class="padding-top padding-left relative-position"> Stock<br>
-                <label for="product_type" class="round-edge-left padding-top padding-left relative-position">Tipo</label>
-                <select id="product_type" class="product-type" name="product_type">
+        <div class="left-side col-8 distance-left-1 div-configuration shadow-menu relative-position hide" id="sell_div">
+            <div class="form-sell-product">
+                <label for="product_name" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Nombre del producto</label>
+                <input type="text" id="product_name" class="col-4 product-name"><br>
+                <label for="product_description" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Descripción del producto</label>
+                <textarea type="text" id="product_description" class="col-4 product-description"></textarea><br>
+                <label for="product_price" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Precio del producto</label>
+                <input type="number" id="product_price" class="col-4 product-price"><br>
+                <input type="radio" name="quantity" value="unlimited" class="margin-left padding-left relative-position"> Ilimitado
+                <input type="radio" name="quantity" value="limited" class="margin-left padding-left relative-position"> Stock<br>
+                <label for="product_type" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Tipo</label>
+                <select id="product_type" class="col-4 product-type" name="product_type">
                         <option value="">Seleccione un tipo...</option>
                     </select>
-                <label for="product_category" class="round-edge-left padding-top padding-left relative-position">Categoria</label>
-                <select id="product_category" class="product-category" name="product_category">
+<br/>
+                <label for="product_category" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Categoría</label>
+                <select id="product_category" class="col-4 product-category" name="product_category">
                         <option value="">Seleccione una categoria...</option>
                     </select><br>
-                <label for="product_pic" class="round-edge-left padding-top padding-left relative-position">Subir imagen</label>
-                <input type="file" name="product_pic" id="product_pic" class="product-pic" accept="image/*"><img alt="foto" class="img-product padding-left"><br>
+
+
+<input id="uploadFile" placeholder="Elige un archivo..." class="margin-left round-edge"/>
+<div class="fileUpload btn btn-primary">
+    <span>Subir una imagen</span>
+    <input id="uploadBtn" type="file" class="upload" />
+</div>
 
                 <input type="button" id="send_product" value="Guardar" class="send-product right-side save-button-margin" name="send_product" />
-            </form>
+            </div>
         </div>
         <!-- fin menú vender-->
         <!-- menú mis productos-->

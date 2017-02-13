@@ -28,7 +28,7 @@
         display: inline-block;
     }
     
-    .paddig-left {
+    .padding-left {
         padding-left: 3%;
     }
     
@@ -155,7 +155,7 @@
     .edit-div input,
     .edit-div select,
     .form-edit-product input,
-    .form-edit-product select {
+    .form-edit-product select, .form-sell-product input, .form-sell-product select{
         height: 25px;
         margin: 1%;
         margin-left: 0;
@@ -245,10 +245,66 @@
         margin: 2%;
     }
     
-    .form-edit-product textarea {
+    .form-edit-product textarea, .form-sell-product textarea {
         height: 70px;
         margin-top: 10px;
         box-shadow: 1px 1px 1px grey;
         margin-left: 1px;
         resize: none;
     }
+
+/*------------------------ upload-css ------------------------------------ */
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.margin-left{
+margin-left:3% !important;
+}
