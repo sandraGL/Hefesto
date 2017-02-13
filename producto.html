@@ -56,14 +56,14 @@
             <img src="images/MichaelScott.png" alt="Imagen de perfil" id="user_menu_link" class="image-user hide" />
             <a href="#" class="link relative-position sign-in-link right-side" id="sign_in_link">INICIAR SESIÓN</a>
             <div class="round-edge sign-in shadow arrow-box-sign-in absolute-position position-order hide" id="sign_in">
-                <form action="" method="POST">
-                    <label for="email" class="round-edge-left">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Introduce tu email" class="round-edge-right" />
-                    <label for="password" class="round-edge-left">Contraseña</label>
-                    <input type="password" id="password" name="password" />
-                    <button>INICIAR SESIÓN</button><br/>
-                    <button>REGISTRARSE</button>
-                </form>
+                <div class="form-div">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introduce tu email" class="round-edge" />
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" class="round-edge"/>
+                    <button class="col-6 session-button">INICIAR SESIÓN</button>
+                    <button class="col-6 right-side session-button">REGISTRARSE</button>
+                </div>
             </div>
             <div class="round-edge user-menu absolute-position shadow position-order hide" id="user_menu">
                 <ul id="menu" class="menu">
