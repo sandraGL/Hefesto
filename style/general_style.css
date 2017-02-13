@@ -398,6 +398,10 @@ header>div.div-search>input.search {
     margin: 1%;
 }
 
+.user-image:hover {
+    cursor: pointer;
+}
+
 .link {
     color: snow;
     text-decoration: none;
@@ -458,12 +462,12 @@ main {
     margin-top: 6px;
 }
 
-.image-user{
+.image-user {
     border-radius: 50%;
     width: 25%;
     margin-right: 24%;
 }
 
-.session-button{
+.session-button {
     margin-top: 5%;
 }
