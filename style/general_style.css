@@ -438,7 +438,7 @@ footer {
     color: white;
 }
 
-.blue-grey-letters{
+.blue-grey-letters {
     color: #263238;
 }
 
@@ -476,7 +476,11 @@ main {
     margin-top: 5%;
 }
 
-.detele-button:hover{
+.text-center {
+    text-align: center;
+}
+
+.detele-button:hover {
     font-weight: 500;
     color: red;
 }
