@@ -291,7 +291,7 @@
 .fileUpload {
 	position: relative;
 	overflow: hidden;
-	margin: 10px;
+	margin: 25px;
 }
 .fileUpload input.upload {
 	position: absolute;
@@ -306,5 +306,9 @@
 }
 
 .margin-left{
-margin-left:3% !important;
+margin-left:2% !important;
+}
+
+.width-upload{
+width:33%;
 }
