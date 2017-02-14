@@ -438,6 +438,10 @@ footer {
     color: white;
 }
 
+.blue-grey-letters {
+    color: #263238;
+}
+
 .no-text-decoration {
     text-decoration: none;
 }
@@ -474,4 +478,9 @@ main {
 
 .text-center {
     text-align: center;
+}
+
+.detele-button:hover {
+    font-weight: 500;
+    color: red;
 }
