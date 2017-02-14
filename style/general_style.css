@@ -438,8 +438,8 @@ footer {
     color: white;
 }
 
-.black-letters{
-    color: #000000;
+.blue-grey-letters{
+    color: #263238;
 }
 
 .no-text-decoration {
@@ -474,4 +474,9 @@ main {
 
 .session-button {
     margin-top: 5%;
+}
+
+.detele-button:hover{
+    font-weight: 500;
+    color: red;
 }
