@@ -91,10 +91,8 @@
 }
 
 .enjoy-css {
-    display: inline-block;
     box-sizing: content-box;
     height: 30px;
-    position: relative;
     cursor: pointer;
     top: 0;
     right: auto;
@@ -106,14 +104,12 @@
     border-radius: 3px;
     font: normal normal 300 22px/30px "Iceland", Helvetica, sans-serif;
     color: rgba(255, 255, 255, 1);
-    text-decoration: none;
     text-align: center;
     text-indent: 0;
     text-overflow: clip;
     letter-spacing: 0;
     white-space: normal;
     word-spacing: 0;
-    /*background: linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0, rgba(255, 0, 0, 0.8) 100%), rgba(0, 0, 0, 1);*/
     background-color: #4caf50;
     background-repeat: repeat;
     background-position: 0 0;
@@ -136,7 +132,6 @@
 .enjoy-css:active {
     top: 6px;
     border: 1px solid #388e3c;
-    border-radius: 0;
     background: linear-gradient(180deg, #388e3c 0, #388e3c 100%), rgb(255, 255, 255);
     background-origin: padding-box;
     background-clip: border-box;
@@ -147,14 +142,12 @@
 
 .comment-btn {
     cursor: pointer;
-    margin-right: 7px;
-    margin-bottom: 7px;
+    margin: 0 7px 7px 0;
     box-shadow: 0px 2px 0px 2px;
     background-color: #ededed;
     border-radius: 6px;
     text-indent: 0;
     border: 1px solid #dcdcdc;
-    display: inline-block;
     color: #777777;
     font-family: arial;
     font-size: 15px;
@@ -162,8 +155,6 @@
     font-style: normal;
     height: 30px;
     width: 88px;
-    text-decoration: none;
-    text-align: center;
     text-shadow: 1px 1px 0px #ffffff;
 }
 

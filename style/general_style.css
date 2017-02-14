@@ -471,3 +471,7 @@ main {
 .session-button {
     margin-top: 5%;
 }
+
+.text-center {
+    text-align: center;
+}
