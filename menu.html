@@ -56,17 +56,17 @@
             </div>
         </div>
         <div class="user-image col-25 relative-position right-side">
-            <img src="images/MichaelScott.png" alt="Imagen de perfil" id="user_menu_link" class="image-user hide" />
-            <a href="#" class="link relative-position sign-in-link right-side" id="sign_in_link">INICIAR SESIÓN</a>
+            <img src="images/MichaelScott.png" alt="Imagen de perfil" id="user_menu_link" class="image-user right-side" />
+            <a href="#" class="link relative-position sign-in-link right-side hide" id="sign_in_link">INICIAR SESIÓN</a>
             <div class="round-edge sign-in shadow arrow-box-sign-in absolute-position position-order hide" id="sign_in">
-                <form action="" method="POST">
-                    <label for="email" class="round-edge-left">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Introduce tu email" class="round-edge-right" />
-                    <label for="password" class="round-edge-left">Contraseña</label>
-                    <input type="password" id="password" name="password" />
-                    <button>INICIAR SESIÓN</button><br/>
-                    <button>REGISTRARSE"</button>
-                </form>
+                <div class="form-div">
+                    <label for="email">Email</label><br/>
+                    <input type="email" id="email" name="email" class="round-edge col-12" /><br/>
+                    <label for="password">Contraseña</label><br/>
+                    <input type="password" id="password" name="password" class="round-edge col-12" />
+                    <button class="col-6 session-button">INICIAR SESIÓN</button>
+                    <button class="col-6 right-side session-button">REGISTRARSE</button>
+                </div>
             </div>
             <div class="round-edge user-menu absolute-position shadow position-order hide" id="user_menu">
                 <ul id="menu" class="menu">
@@ -157,8 +157,8 @@
                 <textarea type="text" id="product_description" class="col-4 product-description"></textarea><br>
                 <label for="product_price" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Precio del producto</label>
                 <input type="number" id="product_price" class="col-4 product-price" min="0" max="10000"><br>
-                <input type="radio" name="quantity" value="unlimited" class="margin-left padding-left relative-position"> Ilimitado
-                <input type="radio" name="quantity" value="limited" class="margin-left padding-left relative-position"> Stock<br>
+                <input type="radio" name="quantity" value="unlimited" class="distance-left-2 padding-left relative-position"> Ilimitado
+                <input type="radio" name="quantity" value="limited" class="distance-left-2 padding-left relative-position"> Stock<br>
                 <label for="product_type" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Tipo</label>
                 <select id="product_type" class="col-4 product-type" name="product_type">
                         <option value="">Seleccione un tipo...</option>
@@ -173,7 +173,7 @@
     <span>Subir una imagen</span>
     <input id="uploadBtn" type="file" class="upload" />
 </div>
-<input id="uploadFile" placeholder="Elige un archivo..." class="margin-left round-edge width-upload"/>
+<input id="uploadFile" placeholder="Elige un archivo..." class="distance-left-2 round-edge width-upload"/>
 
 
                 <input type="button" id="send_product" value="Guardar" class="send-product right-side save-button-margin" name="send_product" />
@@ -241,7 +241,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -250,7 +250,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11 hide" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -259,7 +259,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -268,13 +268,13 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
                 </div>
             </div>
             <div class="payment round-edge right-side display-inline-block  margin-10-payment col-3 product shadow-product">
                 <p class="padding-top-10">TOTAL</p><br>
-                <p class="padding-top-10">Aquí va el precio total</p><br>
-                <a href="#" id="purchasing_progress" class="padding-top-10">TRAMITAR</a>
+                <span class="description-price text-center col-offset-4">480€</span>
+                <button id="purchasing_progress" class="enjoy-css add-to-basket right-side shadow-button purchase-button">Tramitar</button>
             </div>
         </div>
         <!-- fin menú cesta-->
