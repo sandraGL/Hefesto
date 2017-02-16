@@ -242,11 +242,13 @@
       margin: 2%;
   }
   
-  .form-edit-product textarea,
-  {
+  .form-edit-product textarea {
       height: 70px;
       margin-top: 10px;
       box-shadow: 1px 1px 1px grey;
       margin-left: 1px;
-      resize: none;
+  }
+  
+  .purchase-button {
+      margin: 10% 19% 10% 0;
   }
