@@ -4,8 +4,7 @@
       margin-top: 2.4%;
       height: 450px;
   }
-  
-<<<<<<< HEAD
+
     
     .div-configuration {
         background-color: #e0f2f1;
@@ -319,7 +318,7 @@ margin-left:2% !important;
 .width-upload{
 width:33%;
 }
-=======
+
   .margin {
       margin: 2%;
   }
@@ -562,14 +561,9 @@ width:33%;
       margin-top: 10px;
       box-shadow: 1px 1px 1px grey;
       margin-left: 1px;
-<<<<<<< HEAD
       resize: none;
   }
->>>>>>> 48b900f4c4d7faee722b0aaef78710a7a047ee75
-=======
-  }
-  
+
   .purchase-button {
       margin: 10% 19% 10% 0;
   }
->>>>>>> aab0dce9395998def2a9ceb9d37c5f279ff03f7a
