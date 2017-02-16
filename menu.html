@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     <script src="https://use.fontawesome.com/4edf508cfe.js"></script>
+    <script src="https://use.fontawesome.com/b596db7d12.js"></script>
+    <script src="https://use.fontawesome.com/478a4fab36.js"></script>
 
 
 
@@ -149,6 +151,7 @@
         </div>
         <!-- fin menú perfil-->
         <!-- menú vender-->
+
         <div class="left-side col-8 distance-left-1 div-configuration shadow-menu relative-position hide" id="sell_div">
             <div class="form-sell-product">
                 <label for="product_name" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Nombre del producto</label>
@@ -161,6 +164,7 @@
                 <input type="radio" name="quantity" value="limited" class="distance-left-2 padding-left relative-position"> Stock<br>
                 <label for="product_type" class="col-3 block-inline round-edge-left padding-top padding-left relative-position">Tipo</label>
                 <select id="product_type" class="col-4 product-type" name="product_type">
+
                         <option value="">Seleccione un tipo...</option>
                     </select>
 <br/>
@@ -190,9 +194,9 @@
                             <span class="description-name">Mesa</span><br>
                             <span class="description-price">15€</span>
                         </div>
-                        <div class="link-my-products right-side relative-position">
-                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
-                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
+                        <div class="link-my-products right-side relative-position col-1">
+                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration"><i class="fa fa-trash" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -203,9 +207,9 @@
                             <span class="description-name">Silla</span><br>
                             <span class="description-price">15€</span>
                         </div>
-                        <div class="link-my-products right-side relative-position">
-                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration button-style">Editar</a><br>
-                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration button-style">Eliminar</a>
+                        <div class="link-my-products right-side relative-position col-1">
+                            <a href="#" id="link_edit_product" class="right-side display-block no-text-decoration"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            <a href="#" id="link_delete_product" class="right-side display-block no-text-decoration"><i class="fa fa-trash" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +219,7 @@
                     <label for="product_name_edit" class="padding-top padding-left block-inline col-25">Nombre del producto</label>
                     <input type="text" id="product_name_edit" name="product_name_edit" class="col-5 round-edge"><br/>
                     <label for="product_description_edit" class="padding-top padding-left block-inline col-25 left-side">Descripción:</label>
-                    <textarea class="round-edge col-5 relative-position"></textarea><br/>
+                    <textarea class="none-resize-textarea round-edge col-5 relative-position"></textarea><br/>
                     <label for="category_product_edit" class="round-edge-left padding-top padding-left block-inline col-25">Categoría</label>
                     <select id="category_product_edit" name="category" class="round-edge col-5">
                             <option value="">Seleccione una categoría....</option>
@@ -241,7 +245,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters"><i class="fa fa-trash" aria-hidden="true"></i></a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -250,7 +254,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters"><i class="fa fa-trash" aria-hidden="true"></i></a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11 hide" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -259,7 +263,7 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters"><i class="fa fa-trash" aria-hidden="true"></i></a>
                 </div>
                 <div class="div-description-3 display-inline-block left-side distance-left-4 product shadow-product col-11" id="id_product">
                     <img src="images/mesa.jpg" alt="Imagen producto" id="product_image" class="left-side col-4" />
@@ -268,13 +272,13 @@
                         <span class="left-side description-name">Michael Graham</span><br>
                         <span class="left-side description-price">120€</span><br>
                     </div>
-                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters">ELIMINAR</a>
+                    <a href="#" id="delete_product" class="right-side delete button-style no-text-decoration detele-button blue-grey-letters"><i class="fa fa-trash" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="payment round-edge right-side display-inline-block  margin-10-payment col-3 product shadow-product">
                 <p class="padding-top-10">TOTAL</p><br>
                 <span class="description-price text-center col-offset-4">480€</span>
-                <button id="purchasing_progress" class="enjoy-css add-to-basket right-side shadow-button purchase-button">Tramitar</button>
+                <button id="purchasing_progress" class="enjoy-css relative-position block-inline text-center add-to-basket right-side shadow-button purchase-button">Tramitar</button>
             </div>
         </div>
         <!-- fin menú cesta-->
