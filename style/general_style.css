@@ -488,7 +488,7 @@ main {
 .enjoy-css {
     box-sizing: content-box;
     height: 30px;
-    padding: 0 25.600000381469727px;
+    padding: 0 25.6px;
     border: 1px solid #388e3c;
     border-radius: 3px;
     font: normal normal 300 22px/30px "Iceland", Helvetica, sans-serif;
@@ -499,6 +499,7 @@ main {
 }
 
 .enjoy-css:hover {
+    cursor: pointer;
     border: 1px solid #388e3c;
     background: linear-gradient(90deg, #4caf50 0, #4caf50 100%), #388e3c;
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.298039) inset, 0 -1px 1px 0 rgba(255, 255, 255, 0.14902) inset, 0 7px 0 0 #388e3c, 0 8px 3px 0 rgba(0, 0, 0, 0.2);
