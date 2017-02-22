@@ -250,7 +250,6 @@ header {
     .col-lg-12 {
         width: 100%;
     }
-
     .col-lg-offset-05 {
         margin-left: 5%;
     }
@@ -326,7 +325,6 @@ header {
     .col-lg-offset-12 {
         margin-left: 100%;
     }
-
     .distance-lg-left-1 {
         margin-left: 1%;
     }
@@ -362,8 +360,7 @@ header {
         right: 5%;
         font-size: 1.4em;
     }
-
-    .button-lg-position{
+    .button-lg-position {
         margin-top: 21%;
         margin-right: 4%;
     }
@@ -445,7 +442,6 @@ header {
     .col-md-12 {
         width: 100%;
     }
-
     .col-md-offset-05 {
         margin-left: 5%;
     }
@@ -521,7 +517,6 @@ header {
     .col-md-offset-12 {
         margin-left: 100%;
     }
-
     .distance-md-left-1 {
         margin-left: 1%;
     }
@@ -559,8 +554,7 @@ header {
     .md-hidden {
         display: none;
     }
-
-    .button-md-position{
+    .button-md-position {
         margin-top: 15%;
         margin-right: -30%;
     }
@@ -642,7 +636,6 @@ header {
     .col-sm-12 {
         width: 100%;
     }
-
     .col-sm-offset-05 {
         margin-left: 5%;
     }
@@ -718,7 +711,6 @@ header {
     .col-sm-offset-12 {
         margin-left: 100%;
     }
-
     .distance-sm-left-1 {
         margin-left: 1%;
     }
@@ -749,7 +741,6 @@ header {
     .distance-sm-left-7 {
         margin-left: 7%;
     }
-<<<<<<< HEAD
     .sm-product-height {
         height: 10%;
     }
@@ -764,12 +755,10 @@ header {
     }
     .sm-left-side {
         float: left;
-=======
-
-     .button-sm-position{
+    }
+    .button-sm-position {
         margin-top: 15%;
         margin-right: 4%;
->>>>>>> 7a519a50af33aabba0b0177d7e0b38f0481c5f99
     }
 }
 
