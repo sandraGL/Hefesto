@@ -281,8 +281,8 @@ header {
         margin-left: 7%;
     }
     .sign-in-lg-link {
-        top: 7px;
-        right: 5px;
+        top: -6px;
+        right: 5%;
         font-size: 1.4em;
     }
 }
@@ -507,6 +507,21 @@ header {
     }
     .distance-sm-left-7 {
         margin-left: 7%;
+    }
+    .sm-product-height {
+        height: 10%;
+    }
+    .sm-hidden {
+        display: none;
+    }
+    .sm-div-search-position {
+        left: 5%;
+    }
+    .sm-right-side {
+        float: right;
+    }
+    .sm-left-side {
+        float: left;
     }
 }
 

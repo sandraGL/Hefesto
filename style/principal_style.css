@@ -38,3 +38,37 @@ main h2 {
 main {
     display: table;
 }
+
+@media all and (min-width:771px) and (max-width:1099px) {
+    .lg-product-price-main {
+        font-size: 2em;
+        margin: 3%;
+        padding: 1%;
+    }
+    .lg-product-name-main {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (min-width:501px) and (max-width:770px) {
+    .md-product-price-main {
+        font-size: 2em;
+        margin: 3%;
+        padding: 1%;
+    }
+    .md-product-name-main {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width:500px) {
+    .sm-product-price-main {
+        font-size: 2em;
+        margin-right: 15%;
+    }
+    .sm-product-name-main {
+        font-size: 1.7em;
+        margin-top: 14%;
+        margin-left: 10%;
+    }
+}
