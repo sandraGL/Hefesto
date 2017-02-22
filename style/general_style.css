@@ -167,9 +167,127 @@ header {
     .col-offset-12 {
         margin-left: 100%;
     }
+    .sign-in-link {
+        top: 5px;
+        margin: 5%;
+        font-size: 1.4em;
+    }
 }
 
-@media all and (min-width:600px) and (max-width:1099px) {
+@media all and (min-width:771px) and (max-width:1099px) {
+    .col-lg-05 {
+        width: 5%;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-15 {
+        width: 10%;
+    }
+    .col-lg-17 {
+        width: 15%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-23 {
+        width: 18%;
+    }
+    .col-lg-25 {
+        width: 20%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-35 {
+        width: 30%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-45 {
+        width: 35%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-55 {
+        width: 45%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-75 {
+        width: 60%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-85 {
+        width: 70%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-95 {
+        width: 80%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-105 {
+        width: 90%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-118 {
+        width: 98%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .distance-lg-left-1 {
+        margin-left: 1%;
+    }
+    .distance-lg-left-15 {
+        margin-left: 1.5%;
+    }
+    .distance-lg-left-2 {
+        margin-left: 2%;
+    }
+    .distance-lg-left-3 {
+        margin-left: 3%;
+    }
+    .distance-lg-left-33 {
+        margin-left: 3.3%;
+    }
+    .distance-lg-left-35 {
+        margin-left: 3.5%;
+    }
+    .distance-lg-left-4 {
+        margin-left: 4%;
+    }
+    .distance-lg-left-5 {
+        margin-left: 5%;
+    }
+    .distance-lg-left-6 {
+        margin-left: 6%;
+    }
+    .distance-lg-left-7 {
+        margin-left: 7%;
+    }
+    .sign-in-lg-link {
+        top: 7px;
+        right: 5px;
+        font-size: 1.4em;
+    }
+}
+
+@media all and (min-width:400px) and (max-width:770px) {
     .col-md-05 {
         width: 5%;
     }
@@ -277,7 +395,7 @@ header {
     }
 }
 
-@media all and (max-width:599px) {
+@media all and (max-width:399px) {
     .col-sm-05 {
         width: 5%;
     }
@@ -479,12 +597,6 @@ ul {
     border-bottom-color: #d5d5d5;
     border-width: 10px;
     margin-left: -10px;
-}
-
-.sign-in-link {
-    top: 5px;
-    margin: 5%;
-    font-size: 1.4em;
 }
 
 .div-search-input {
