@@ -287,7 +287,7 @@ header {
     }
 }
 
-@media all and (min-width:400px) and (max-width:770px) {
+@media all and (min-width:501px) and (max-width:770px) {
     .col-md-05 {
         width: 5%;
     }
@@ -393,9 +393,16 @@ header {
     .distance-md-left-7 {
         margin-left: 7%;
     }
+    .sign-lg-link {
+        right: 5px;
+        font-size: 1.4em;
+    }
+    .md-hidden {
+        display: none;
+    }
 }
 
-@media all and (max-width:399px) {
+@media all and (max-width:500px) {
     .col-sm-05 {
         width: 5%;
     }
