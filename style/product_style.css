@@ -32,7 +32,7 @@
 
 .commentary {
     margin: 10px;
-    height: 50px;
+    height: 88px;
 }
 
 .img-user-comment {
@@ -42,7 +42,7 @@
 }
 
 .arrow-box {
-    background: #b2dfdb;
+    background: #d5d5d5;
 }
 
 .arrow-box:after {
@@ -55,7 +55,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(213, 213, 213, 0);
-    border-right-color: #b2dfdb;
+    border-right-color: #d5d5d5;
     border-width: 10px;
     margin-top: -10px;
 }
@@ -124,8 +124,4 @@
 
 .shadow-menu {
     box-shadow: 2px 2px 6px grey;
-}
-
-.comment-container {
-    background-color: #b2dfdb;
 }
