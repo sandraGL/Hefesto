@@ -1050,3 +1050,7 @@ main {
     margin-bottom: 5%;
     margin-right: 19%;
 }
+
+input.no-shadow {
+    box-shadow: none;
+}
