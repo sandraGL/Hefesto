@@ -144,24 +144,24 @@
         <!-- fin menú perfil-->
         <!-- menú vender-->
         <div class="left-side col-8 col-lg-8 distance-left-1 distance-lg-left-1 div-configuration shadow-menu relative-position hide" id="sell_div">
-            <div class="form-sell-product col-12 col-lg-12">
-                <label for="product_name" class="col-3 col-lg-45 block-inline round-edge-left padding-top padding-left relative-position">Nombre del producto</label>
-                <input type="text" id="product_name" class="col-4 col-lg-4 product-name round-edge"><br>
-                <label for="product_description" class="col-3 col-lg-45 block-inline round-edge-left padding-top padding-left relative-position">Descripción del producto</label>
-                <textarea type="text" id="product_description" class="col-4 col-lg-4 product-description round-edge"></textarea><br>
-                <label for="product_price" class="col-3 col-lg-45 block-inline round-edge-left padding-top padding-left relative-position">Precio del producto</label>
-                <input type="number" id="product_price" class="col-4 col-lg-4 product-price round-edge" min="0" max="10000"><br>
+            <div class="form-sell-product col-12 col-lg-12 full-height">
+                <label for="product_name" class="col-3 col-lg-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Nombre del producto</label>
+                <input type="text" id="product_name" class="col-4 col-lg-4 round-edge"><br>
+                <label for="product_description" class="col-3 col-lg-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Descripción del producto</label>
+                <textarea type="text" id="product_description" class="col-4 col-lg-4 round-edge"></textarea><br>
+                <label for="product_price" class="col-3 col-lg-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Precio del producto</label>
+                <input type="number" id="product_price" class="col-4 col-lg-4 round-edge" min="0" max="10000"><br>
                 <div class="distance-left-3 distance-lg-left-3">
                     <input type="radio" name="quantity" value="unlimited" class="distance-left-3 distance-lg-left-2 padding-left relative-position no-shadow"> Ilimitado<br/>
                     <input type="radio" name="quantity" value="limited" class="distance-left-2 distance-lg-left-2 padding-left relative-position no-shadow"> Stock<br>
                 </div>
-                <label for="product_type" class="col-3 col-lg-45 block-inline round-edge-left padding-top padding-left relative-position">Tipo</label>
-                <select id="product_type" class="col-4 col-lg-4 round-edge product-type" name="product_type">
+                <label for="product_type" class="col-3 col-lg-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Tipo</label>
+                <select id="product_type" class="col-4 col-lg-4 round-edge" name="product_type">
                         <option value="">Seleccione un tipo...</option>
                     </select>
                 <br/>
-                <label for="product_category" class="col-3 col-lg-45 block-inline round-edge-left padding-top padding-left relative-position">Categoría</label>
-                <select id="product_category" class="round-edge col-4 col-lg-4 product-category" name="product_category">
+                <label for="product_category" class="col-3 col-lg-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Categoría</label>
+                <select id="product_category" class="round-edge col-4 col-lg-4" name="product_category">
                         <option value="">Seleccione una categoria...</option>
                     </select><br>
 
@@ -170,7 +170,7 @@
                     <input id="uploadBtn" type="file" class="upload absolute-position" />
                 </div>
                 <input id="uploadFile" placeholder="Elige un archivo..." class="round-edge col-4 col-lg-4" />
-                <button id="send_product" class="send-product right-side save-button-margin">Subir producto</button>
+                <button id="send_product" class="right-side save-button-margin save-button-lg-margin relative-position">Subir producto</button>
             </div>
         </div>
         <!-- fin menú vender-->

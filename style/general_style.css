@@ -364,6 +364,10 @@ header {
         margin-top: 21%;
         margin-right: 4%;
     }
+    .save-button-lg-margin {
+        margin-top: 8%;
+        margin-right: 1%;
+    }
 }
 
 @media all and (min-width:501px) and (max-width:770px) {
