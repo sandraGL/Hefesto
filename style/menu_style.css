@@ -557,3 +557,7 @@
   .purchase-button {
       margin: 10% 19% 10% 0;
   }
+
+.delete-button:hover{
+    color: red;
+}
