@@ -35,7 +35,7 @@ profile_link_big.addEventListener('click', function() {
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('profile_div').classList.remove("hide");
-    changeDivEditProfile();
+    changeDivEditProduct();
 });
 
 edit_profile_data.addEventListener('click', function() {
@@ -56,6 +56,7 @@ sell_link_big.addEventListener('click', function() {
     window.document.getElementById('my_products').classList.add("hide");
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.remove("hide");
+    changeDivEditProduct();
     changeDivEditProfile();
 });
 
@@ -65,6 +66,7 @@ my_products_link_big.addEventListener('click', function() {
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('my_products').classList.remove("hide");
+    changeDivEditProduct();
     changeDivEditProfile();
 });
 
@@ -73,17 +75,13 @@ link_edit_product.addEventListener('click', function() {
     window.document.getElementById('products_div').classList.add('hide');
 });
 
-function changeDivEditProfile() {
-    window.document.getElementById('edit_div_product').classList.add('hide');
-    window.document.getElementById('products_div').classList.remove('hide');
-}
-
 basket_link_big.addEventListener('click', function() {
     window.document.getElementById('profile_div').classList.add("hide");
     window.document.getElementById('sales_div').classList.add("hide");
     window.document.getElementById('my_products').classList.add("hide");
     window.document.getElementById('sell_div').classList.add("hide");
     window.document.getElementById('basket_div').classList.remove("hide");
+    changeDivEditProduct();
     changeDivEditProfile();
 });
 
@@ -94,4 +92,16 @@ my_sales_link_big.addEventListener('click', function() {
     window.document.getElementById('basket_div').classList.add("hide");
     window.document.getElementById('sales_div').classList.remove("hide");
     changeDivEditProfile();
+    changeDivEditProfile();
 });
+
+function changeDivEditProfile() {
+    window.document.getElementById('edit_profile_div').classList.add('hide');
+    window.document.getElementById('data_profile_div').classList.remove('hide');
+    window.document.getElementById('edit_profile_data').classList.remove('hide');
+}
+
+function changeDivEditProduct() {
+    window.document.getElementById('edit_div_product').classList.add('hide');
+    window.document.getElementById('products_div').classList.remove('hide');
+}
