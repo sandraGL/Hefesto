@@ -10,7 +10,6 @@ body {
 
 header {
     background-color: #00897b;
-    border: none;
 }
 
 @media all and (min-width:1100px) {
@@ -1012,16 +1011,6 @@ header {
     border-radius: 5px;
 }
 
-.round-edge-left {
-    color: black;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-
-.round-edge-right {
-    color: black;
-    border-radius: 4px;
-}
 
 input {
     border: 1px solid grey;
@@ -1073,7 +1062,6 @@ select {
 .div-search-input input.search {
     height: 40px;
     background: snow;
-    border: none;
     font-size: 10px;
     padding-left: 15px;
     border-bottom-left-radius: 5px;
@@ -1088,7 +1076,6 @@ input.search[placeholder] {
 .div-search-input button.icon {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border: none;
     background: snow;
     height: 40px;
     color: #4f5b66;
@@ -1151,7 +1138,6 @@ header>div.div-search>input.search {
 footer {
     height: 50px;
     text-align: center;
-    /*background-image: url("../images/img_header.png");*/
     background-color: #00897b;
     margin-top: 2%;
     display: table;
@@ -1424,7 +1410,6 @@ ul li:hover {
     height: 25px;
     margin: 1%;
     margin-left: 0;
-    box-shadow: 1px 1px 1px grey;
 }
 
 .edit-div label {
@@ -1437,8 +1422,6 @@ ul li:hover {
     margin: 1%;
     font-size: .8em;
     padding: .5%;
-    box-shadow: 1px 1px 1px grey;
-    border: none;
 }
 
 button:hover {
@@ -1501,7 +1484,6 @@ ul li span {
 .form-sell-product textarea {
     height: 70px;
     margin-top: 10px;
-    box-shadow: 1px 1px 1px grey;
     margin-left: 1px;
     resize: none;
 }
@@ -1559,7 +1541,6 @@ ul li span {
 .save-product-button-style {
     background-color: #cccccc;
     padding: 4px;
-    box-shadow: 1px 1px 1px grey;
 }
 
 .save-product-button-style:hover {
@@ -1699,5 +1680,12 @@ ul li span {
     box-shadow: 2px 2px 6px grey;
 }
 
-
 /*PRODUCTO.HTML STYLE END*/
+
+.shadow-box-111{
+     box-shadow: 1px 1px 1px grey;
+}
+
+.none-border{
+    border: none;
+}

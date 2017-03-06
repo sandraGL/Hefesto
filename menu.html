@@ -17,33 +17,33 @@
         <img id="main_logo" alt="Logo Principal" class="logo-size-header main-logo absolute-position left-side distance-left-2 distance-lg-left-2 distance-md-left-2 distance-sm-left-2" src="images/logo2.png" />
         <div class="div-search col-75 col-lg-75 col-md-8 col-sm-8 distance-lg-left-3 distance-sm-left-7 sm-div-search-position relative-position">
             <div class="div-search-input col-12 col-lg-12 col-md-12 col-sm-12 left-side">
-                <input type="text" id="search" name="search" placeholder="Nombre del producto" class="search col-105 col-lg-105 col-md-105 col-sm-9 left-side" />
-                <button class="icon col-05 col-lg-05 col-md-1"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+                <input type="text" id="search" name="search" placeholder="Nombre del producto" class="search col-105 col-lg-105 col-md-105 col-sm-9 left-side none-border" />
+                <button class="icon col-05 col-lg-05 col-md-1 none-border"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
             </div>
             <a href="#" id="advanced_search_link" class="link relative-position">Búsqueda Avanzada</a>
             <div class="round-edge advanced-search absolute-position shadow arrow-box-menu position-order col-sm-9 hide" id="advanced_search">
 
-                <label for="product_name" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 search-top-margin">Nombre producto</label>
-                <input type="text" id="product_name" name="product_name" class="round-edge-right col-12 col-lg-12 col-md-12 col-sm-12" /><br/>
-                <label for="product_category" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Categoría</label>
-                <select id="product_category" name="product_category" class="round-edge-right">
+                <label for="product_name" class="block-inline col-75 col-lg-75 col-md-75 search-top-margin">Nombre producto</label>
+                <input type="text" id="product_name" name="product_name" class=" col-12 col-lg-12 col-md-12 col-sm-12" /><br/>
+                <label for="product_category" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Categoría</label>
+                <select id="product_category" name="product_category" class="">
                         <option value="">Seleccione...</option>
                     </select><br/>
-                <label for="product_material" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Tipo material</label>
-                <select id="product_material" name="material" class="round-edge-right">
+                <label for="product_material" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Tipo material</label>
+                <select id="product_material" name="material" class="">
                         <option value="">Seleccione...</option>
                     </select><br/>
-                <label for="shipping_mail" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Envío por correo</label>
+                <label for="shipping_mail" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Envío por correo</label>
                 <input type="checkbox" id="shipping_mail" name="shipping_mail" /><br>
-                <label for="hand_delivery" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Entrega en mano</label>
+                <label for="hand_delivery" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Entrega en mano</label>
                 <input type="checkbox" id="hand_delivery" name="hand_delivery" /><br/>
                 <div id="select_city">
-                    <label for="autonomous_community" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Comunidad autónoma</label>
-                    <select id="autonomous_community" name="autonomous_community" class="round-edge-right">
+                    <label for="autonomous_community" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Comunidad autónoma</label>
+                    <select id="autonomous_community" name="autonomous_community" class="">
                             <option value="">Seleccione...</option>
                         </select><br/>
-                    <label for="city" class="round-edge-left block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Ciudad</label>
-                    <select id="city" name="city" class="round-edge-right">
+                    <label for="city" class="block-inline col-75 col-lg-75 col-md-75 col-sm-6 search-top-margin">Ciudad</label>
+                    <select id="city" name="city" class="">
                             <option value="">Seleccione...</option>
                         </select>
                 </div>
@@ -121,57 +121,57 @@
             </div>
             <div class="round-edge left-side col-9 col-lg-9 col-md-9 col-sm-9 margin-top-div edit-div hide relative-position padding-top-10" id="edit_profile_div">
                 <label for="edit_profile_name" class="col-17 col-lg-3 col-md-3 col-sm-3">Nombre</label>
-                <input type="text" id="edit_profile_name" name="edit_profile_name" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7"><br>
+                <input type="text" id="edit_profile_name" name="edit_profile_name" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7 shadow-box-111"><br>
                 <label for="edit_profile_surname" class="col-17 col-lg-3 col-md-3 col-sm-3">Apellidos</label>
-                <input type="text" id="edit_profile_surname" name="edit_profile_surname" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7"><br>
+                <input type="text" id="edit_profile_surname" name="edit_profile_surname" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7 shadow-box-111"><br>
                 <label for="edit_profile_address" class="col-17 col-lg-3 col-md-3 col-sm-3">Dirección</label>
-                <input type="text" id="edit_profile_address" name="edit_profile_address" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7"><br>
+                <input type="text" id="edit_profile_address" name="edit_profile_address" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7 shadow-box-111"><br>
                 <label for="edit_profile_telephone" class="col-17 col-lg-3 col-md-3 col-sm-3">Teléfono</label>
-                <input type="tel" id="edit_profile_telephone" name="edit_profile_telephone" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7"><br>
+                <input type="tel" id="edit_profile_telephone" name="edit_profile_telephone" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7 shadow-box-111"><br>
                 <label for="edit_profile_email" class="col-17 col-lg-3 col-md-3 col-sm-3">Email</label>
-                <input type="email" id="edit_profile_email" name="edit_profile_email" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7"><br>
+                <input type="email" id="edit_profile_email" name="edit_profile_email" class="round-edge col-7 col-lg-7 col-md-7 col-sm-7 shadow-box-111"><br>
                 <label for="edit_profile_autonomous_community" class="col-17 col-lg-3 col-md-3 col-sm-3">Comunidad autónoma</label>
-                <select id="edit_profile_autonomous_comunity" name="edit_profile_autonomous_community" class="round-edge col-5 col-lg-6 col-md-6 col-sm-6">
+                <select id="edit_profile_autonomous_comunity" name="edit_profile_autonomous_community" class="round-edge col-5 col-lg-6 col-md-6 col-sm-6 shadow-box-111">
                         <option value="">Seleccione una comunidad autónoma...</option>
                     </select><br/>
                 <label for="edit_profile_city" class="col-17 col-lg-3 col-md-3 col-sm-3">Ciudad</label>
-                <select id="edit_profile_city" name="edit_profile_city" class="round-edge col-5 col-lg-6 col-md-6 col-sm-6">
+                <select id="edit_profile_city" name="edit_profile_city" class="round-edge col-5 col-lg-6 col-md-6 col-sm-6 shadow-box-111">
                         <option value="">Seleccione una ciudad...</option>
                     </select><br>
-                <button id="cancel_profile_edit" class="right-side col-17 col-lg-17 col-md-17 col-sm-3">Cancelar</button>
-                <button id="send_profile_edit" class="right-side col-17 col-lg-17 col-md-17 col-sm-3">Enviar</button>
+                <button id="cancel_profile_edit" class="right-side col-17 col-lg-17 col-md-17 col-sm-3 shadow-box-111 none-border">Cancelar</button>
+                <button id="send_profile_edit" class="right-side col-17 col-lg-17 col-md-17 col-sm-3 shadow-box-111 none-border">Enviar</button>
             </div>
         </div>
         <!-- fin menú perfil-->
         <!-- menú vender-->
         <div class="left-side col-8 col-lg-8 col-md-118 col-sm-118 distance-left-1 distance-lg-left-1 distance-md-left-1 distance-sm-left-1 div-configuration shadow-menu relative-position hide" id="sell_div">
             <div class="form-sell-product col-12 col-lg-12 col-md-12 col-sm-12 full-height">
-                <label for="product_name" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Nombre del producto</label>
-                <input type="text" id="product_name" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge"><br>
-                <label for="product_description" class="col-3 col-lg-45 col-md-45 col-sm-45 round-edge-left padding-top block-inline padding-left relative-position left-side">Descripción del producto</label>
-                <textarea type="text" id="product_description" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge"></textarea><br>
-                <label for="product_price" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Precio del producto</label>
-                <input type="number" id="product_price" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge" min="0" max="10000"><br>
+                <label for="product_name" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline padding-top block-inline padding-left relative-position">Nombre del producto</label>
+                <input type="text" id="product_name" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge shadow-box-111"><br>
+                <label for="product_description" class="col-3 col-lg-45 col-md-45 col-sm-45 padding-top block-inline padding-left relative-position left-side">Descripción del producto</label>
+                <textarea type="text" id="product_description" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge shadow-box-111"></textarea><br>
+                <label for="product_price" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline padding-top block-inline padding-left relative-position">Precio del producto</label>
+                <input type="number" id="product_price" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge shadow-box-111" min="0" max="10000"><br>
                 <div class="distance-left-3 distance-lg-left-3 distance-md-left-4 distance-sm-4">
                     <input type="radio" name="quantity" value="unlimited" class="distance-left-3 distance-lg-left-2 distance-sm-left-2 distance-md-left-2  padding-left relative-position no-shadow"> Ilimitado<br/>
                     <input type="radio" name="quantity" value="limited" class="distance-left-2 distance-lg-left-2 distance-sm-left-2 distance-md-left-2  padding-left relative-position no-shadow"> Stock<br>
                 </div>
-                <label for="product_type" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Tipo</label>
-                <select id="product_type" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge" name="product_type">
+                <label for="product_type" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline padding-top block-inline padding-left relative-position">Tipo</label>
+                <select id="product_type" class="col-5 col-lg-5 col-md-5 col-sm-5 round-edge shadow-box-111" name="product_type">
                         <option value="">Seleccione un tipo...</option>
                     </select>
                 <br/>
-                <label for="product_category" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline round-edge-left padding-top block-inline padding-left relative-position">Categoría</label>
-                <select id="product_category" class="round-edge col-5 col-lg-5 col-md-5 col-sm-5" name="product_category">
+                <label for="product_category" class="col-3 col-lg-45 col-md-45 col-sm-45 block-inline padding-top block-inline padding-left relative-position">Categoría</label>
+                <select id="product_category" class="round-edge col-5 col-lg-5 col-md-5 col-sm-5 shadow-box-111" name="product_category">
                         <option value="">Seleccione una categoria...</option>
                     </select><br>
 
                 <div class="file-upload relative-position button-upload-file block-inline text-center">
                     <span>Subir una imagen</span>
-                    <input id="uploadBtn" type="file" class="upload absolute-position" />
+                    <input id="uploadBtn" type="file" class="upload absolute-position shadow-box-111" />
                 </div>
-                <input id="uploadFile" placeholder="Elige un archivo..." class="round-edge col-4 col-lg-4 col-md-4 col-sm-4" />
-                <button id="send_product" class="save-product-button-style block-inline right-side save-button-margin save-button-lg-margin save-button-md-margin save-button-sm-margin">Subir producto</button>
+                <input id="uploadFile" placeholder="Elige un archivo..." class="round-edge col-4 col-lg-4 col-md-4 col-sm-4 shadow-box-111" />
+                <button id="send_product" class="save-product-button-style shadow-box-111 block-inline right-side save-button-margin save-button-lg-margin save-button-md-margin save-button-sm-margin">Subir producto</button>
             </div>
         </div>
         <!-- fin menú vender-->
@@ -208,19 +208,19 @@
             <div id="edit_div_product" class="round-edge hide col-11 col-lg-11 col-md-11 col-sm-11 edit-div-product relative-position distance-left-7 distance-lg-left-7 distance-md-left-6 distance-sm-left-6">
                 <div class="form-edit-product relative-position distance-left-3 distance-lg-left-3 distance-md-left-3 col-11 col-lg-11 col-md-11 col-sm-11">
                     <label for="product_name_edit" class="padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4">Nombre del producto</label>
-                    <input type="text" id="product_name_edit" name="product_name_edit" class="col-6 col-lg-6 col-md-6 col-sm-7 round-edge"><br/>
+                    <input type="text" id="product_name_edit" name="product_name_edit" class="col-6 col-lg-6 col-md-6 col-sm-7 round-edge shadow-box-111"><br/>
                     <label for="product_description_edit" class="padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4 left-side">Descripción:</label>
-                    <textarea class="round-edge col-6 col-lg-6 col-md-6 col-sm-7 relative-position"></textarea><br/>
-                    <label for="category_product_edit" class="round-edge-left padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4">Categoría</label>
-                    <select id="category_product_edit" name="category" class="round-edge col-6 col-lg-6 col-md-6 col-sm-7">
+                    <textarea class="round-edge col-6 col-lg-6 col-md-6 col-sm-7 relative-position shadow-box-111"></textarea><br/>
+                    <label for="category_product_edit" class="padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4">Categoría</label>
+                    <select id="category_product_edit" name="category" class="round-edge col-6 col-lg-6 col-md-6 col-sm-7 shadow-box-111">
                             <option value="">Seleccione una categoría....</option>
                     </select><br/>
-                    <label for="material_type_edit" class="round-edge-left padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4">Tipo de material</label>
-                    <select id="material_type_edit" name="material_type_edit" class="round-edge col-6 col-lg-6 col-md-6 col-sm-7">
+                    <label for="material_type_edit" class="padding-top padding-left block-inline col-35 col-lg-4 col-md-4 col-sm-4">Tipo de material</label>
+                    <select id="material_type_edit" name="material_type_edit" class="round-edge col-6 col-lg-6 col-md-6 col-sm-7 shadow-box-111">
                             <option value="">Seleccione el tipo de producto....</option>
                     </select><br/>
-                    <button id="submit_edit_product" class="right-side">Cancelar</button>
-                    <button id="cancel_edit_product" class="right-side">Guardar</button>
+                    <button id="submit_edit_product" class="right-side shadow-box-111 none-border">Cancelar</button>
+                    <button id="cancel_edit_product" class="right-side shadow-box-111 none-border">Guardar</button>
                 </div>
             </div>
         </div>
