@@ -1140,7 +1140,6 @@ footer {
     text-align: center;
     background-color: #00897b;
     margin-top: 2%;
-    display: table;
 }
 
 .links-footer {
@@ -1176,7 +1175,7 @@ footer {
     clear: right;
 }
 
-.display-table {
+.table-display {
     display: table;
 }
 
